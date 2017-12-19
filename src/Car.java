@@ -13,6 +13,6 @@ public class Car extends Motorized
 		}
 		public void drift()
 		{
-		System.out.println("You're practically the Baby Driver!");
+		System.out.println("Sick drift bro! You're practically the Baby Driver!");
 		}
 	}
