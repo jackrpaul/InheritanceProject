@@ -1,5 +1,5 @@
 
-public class Vehicle
+public abstract class Vehicle
 	{
 	protected String name = "vehicle";
 	public void haveInsurance()
@@ -10,4 +10,5 @@ public class Vehicle
 		{
 		System.out.println("My " + name + " broke down! Better go repair it.");
 		}
+	
 	}

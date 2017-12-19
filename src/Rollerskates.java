@@ -8,7 +8,7 @@ public class Rollerskates extends NonMotorized
 		System.out.println("You put on the skates and go roam the streets of Denver.");
 		}
 		public void getNumberOfWheels()
-			{
-			System.out.println("This " + name + " has " + numberOfWheels + " wheels.");
-			}
+		{
+		System.out.println("This " + name + " has " + numberOfWheels + " wheels.");
+		}
 	}
