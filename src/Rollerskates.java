@@ -9,6 +9,10 @@ public class Rollerskates extends NonMotorized
 		}
 		public void getNumberOfWheels()
 		{
-		System.out.println("This " + name + " has " + numberOfWheels + " wheels.");
+		System.out.println("Each " + name.substring(0, name.length() - 1) + " has " + numberOfWheels / 2 + " wheels on it.");
+		}
+		public void buy()
+		{
+		System.out.println("Wow! Those fancy new " + name + " ran you $70!");
 		}
 	}

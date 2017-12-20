@@ -9,4 +9,8 @@ public class Motorized extends Vehicle
 		{
 		System.out.println("The engine roars after you put the pedal to the metal.");
 		}
+		public void buy()
+		{
+		System.out.println("Let's just hope it wasn't a gas guzzler...");
+		}
 	}

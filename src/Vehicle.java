@@ -10,5 +10,6 @@ public abstract class Vehicle
 		{
 		System.out.println("My " + name + " broke down! Better go repair it.");
 		}
+	public abstract void buy();
 	
 	}

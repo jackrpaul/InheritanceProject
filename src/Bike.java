@@ -11,4 +11,8 @@ public class Bike extends NonMotorized
 			{
 			System.out.println("This " + name + " has " + numberOfWheels + " wheels.");
 			}
+		public void buy()
+		{
+		System.out.println("Wow! That fancy new " + name + " ran you $100!");
+		}
 	}

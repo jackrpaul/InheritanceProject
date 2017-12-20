@@ -15,4 +15,8 @@ public class Vespa extends Motorized
 		{
 		System.out.println("It's almost like I'm on the streets of Rome...");
 		}
+		public void buy()
+		{
+		System.out.println("Wow! That fancy new " + name + " ran you $350!");
+		}
 	}

@@ -9,4 +9,8 @@ public class NonMotorized extends Vehicle
 		{
 		System.out.println("You become instantly popular after showing off your " + name + " to all your friends.");
 		}
+		public void buy()
+		{
+		System.out.println("You have purchased an environmentally friendly vehicle. Go you!");
+		}
 	}

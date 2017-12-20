@@ -15,4 +15,8 @@ public class Car extends Motorized
 		{
 		System.out.println("Sick drift bro! You're practically the Baby Driver!");
 		}
+		public void buy()
+		{
+		System.out.println("Wow! That fancy new " + name + " ran you $28,000!");
+		}
 	}
